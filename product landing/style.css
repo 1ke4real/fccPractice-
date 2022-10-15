@@ -1,0 +1,101 @@
+a{
+    text-decoration: none;
+    color: #F5B041;
+}
+a:hover{
+    border-bottom: 1px solid #F5B041;
+}
+body{
+    background-color: #E5E7E9;
+    font-family: 'Open Sans', sans-serif;
+    color: #17202A;
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ li {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+#contact{
+    text-align: center;
+    
+}
+#hiw{
+    text-align:center;
+}
+#contact .submit{
+    width: 100px;
+}
+#header-img{
+    width: 30%;
+}
+#nav{
+    
+    padding: 10px;
+}
+h1, h2, h3{
+    color: #F5B041;
+    font-family: 'Proza Libre', sans-serif;
+}
+#pricing{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    
+}
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+iframe{
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+iframe:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+input {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color:#333;
+}
+.submit{
+    background-color: #F5B041;
+    border: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 5px solid #F5B041;
+    cursor: pointer;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+    width: 200px;
+}
+.submit:hover{
+    box-shadow: 0 3.5px 4px rgba(0,0,0,0.25), 0 2.5px 2.5px rgba(0,0,0,0.22);
+}
+#main{
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+}
+#contact{
+    text-align: center;
+}

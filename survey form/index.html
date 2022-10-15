@@ -1,0 +1,104 @@
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1 id="title">Survey Form</h1>
+    <div id="main"> 
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form action="" id="survey-form">
+                <div class="left">
+                    <label for="" id="name-label">* Name</label>
+                </div> 
+                <div class="right">
+                    <input type="text" name="name" placeholder="Your Name" id="name" required>  
+                </div>
+                <div class="left">
+                    <label for="" id="email-label">* Email</label>
+                </div> 
+                <div class="right">
+                    <input type="email" name="email" placeholder="Your email" id="email" required> 
+                </div>
+                <div class="left">
+                    <label for="" id="number-label">* Age</label>
+                </div> 
+                <div class="right">
+                    <input type="number" name="age" placeholder="Your age" min="1" max="125" id="number" required> <br>
+                </div>
+               <div class="left">
+                <label for="">Which option best describes your current role?</label>
+               </div>
+                <div class="right">
+                    <Select id="dropdown">
+                        <option value="Student" name="Student">Student</option>
+                        <option value="Full-time-job" name="Full-time-job">Full time job</option>
+                        <option value="Full-time-leamer" name="Full-time-leamer">Full time leamer</option>
+                        <option value="Prefer-not-to-say" name="Prefer-not-to-say">Prefer not to say</option>
+                        <option value="Other" name="Other">Other</option> 
+                    </Select> <br><br>
+                </div>
+            
+                <div class="left">
+                    <label for="">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                </div>
+                <div class="right">
+                    <input type="radio" name="1" value="1" required> Definitely<br>
+                    <input type="radio" name="1" value="1"> Maybe<br>
+                    <input type="radio" name="1" value="1"> Not sure<br> <br>
+                </div>
+            
+                <div class="left">
+                    <label for="">What do you like most in FCC:</label>
+                </div>
+               <div class="right">
+                <select name="" id="">
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Challenges">Challenges</option>
+                </select> <br> <br>
+               </div>
+            
+               <div class="left">
+                <label for="">Things that should be improved in the future (Check all that apply):</label>
+               </div>
+                <div class="right">
+                    <input type="checkbox" name="front" id="" value="front"> Front-end Projects <br>
+                    <input type="checkbox" name="backend" id="" value="backend"> Back-end Projects <br>
+                    <input type="checkbox" name="data" id="" value="data"> Data Visualization <br>
+                    <input type="checkbox" name="Challenges" id="" value="Challenges"> Challenges <br>
+                    <input type="checkbox" name="open" id="" value="open"> Open Source Community <br>
+                    <input type="checkbox" name="gitter" id="" value="gitter"> Gitter help rooms <br>
+                    <input type="checkbox" name="video" id="" value="video"> Videos <br>
+                    <input type="checkbox" name="city" id="" value="city"> City Meetups <br>
+                    <input type="checkbox" name="wiki" id="" value="wiki"> wiki <br>
+                    <input type="checkbox" name="forums" id="" value="forum"> Additional Courses <br>
+                </div>
+            
+                <div class="left">
+                    <label for="">Any Comments or Suggestions?</label>
+                </div>
+                <div class="right">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="enter your comment"></textarea> <br>
+                </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
